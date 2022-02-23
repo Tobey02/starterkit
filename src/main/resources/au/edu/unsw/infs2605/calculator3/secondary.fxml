@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="au.edu.unsw.infs2605.calculator3.SecondaryController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="au.edu.unsw.infs2605.calculator3.SecondaryController">
    <children>
       <Text fx:id="txtNumber1" layoutX="79.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number 1" />
       <Text fx:id="txtNumber2" layoutX="273.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number 2" />
@@ -19,4 +19,4 @@
       <Label layoutX="465.0" layoutY="107.0" text="Result" />
       <Label fx:id="lblresult" layoutX="467.0" layoutY="158.0" text="______" />
    </children>
-</fx:root>
+</AnchorPane>
