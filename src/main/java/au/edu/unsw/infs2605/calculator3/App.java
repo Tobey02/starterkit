@@ -1,4 +1,4 @@
-package au.edu.unsw.infs2605.starterkit;
+package au.edu.unsw.infs2605.calculator3;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -17,7 +17,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        stage.setTitle("Starterkit");
+        stage.setTitle("Calculator");
         scene = new Scene(loadFXML("primary"), 640, 480);
         stage.setScene(scene);
         stage.show();
